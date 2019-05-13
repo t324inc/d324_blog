@@ -1,0 +1,13 @@
+name: 'D324 Blog'
+description: 'Provides Blog post content type and related configuration. Use Blog to publish blog post by different authors in the Blog section of the site.'
+type: module
+core: 8.x
+version: 8.x-7.x-dev
+project: d324_blog
+package: D324
+dependencies:
+  - d324_core:d324_core
+install:
+  - length_indicator
+  - advanced_text_formatter
+  - maxlength
